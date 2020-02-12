@@ -1,5 +1,4 @@
 # PracticeRWD
-<<<<<<< HEAD
 =======
 <div>
  <h1>我的第一個GitHub儲藏庫</h1>
@@ -14,4 +13,3 @@
   
   
   </div>
->>>>>>> origin/master
