@@ -1,14 +1,32 @@
 @charset "UTF-8";
 
 /*--- Fluid Layout ---*/
-.container-fluid::after{content:" ";display:table;clear:both;}
-.clear{clear:both;}
-.fluidLeft{float:left;}
-.fluidRight{float:right;}
+.container-fluid::after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+.clear{
+	clear:both;
+}
+.fluidLeft{
+	float:left;
+}
+.fluidRight{
+	float:right;
+}
 
 /*--- Grid System ---*/
-.gridContainer{display:grid;grid-template-columns: auto auto auto auto;}
-.gridItem{text-align:center;margin: 0px;width: 20rem;height:40rem;}
+.gridContainer{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+}
+.gridItem{
+	text-align:center;
+	margin: 0px;
+	width: 20rem;
+	height:40rem;
+}
 .col1{width:6.80%;}
 .col2{width:15.27%;}
 .col3{width:23.75%;}
