@@ -60,8 +60,8 @@
 /*--- Dropdown Menu ---*/
 .dropdown-menu{
 	padding: 1rem;}
-.dropdwon-menu-bottom{t
-	op: 100%;left:0;}
+.dropdwon-menu-bottom{
+	top: 50%;left:0;}
 .dropdwon-menu-top{
 	bottom: 100%;left:0;}
 .dropdwon-menu-left{
@@ -69,7 +69,7 @@
 .dropdwon-menu-right{
 	top:0;left: 100%;}
 .dropdown{
-	line-height: rem;}
+	line-height: 0.5rem;}
 .dropdown>img,.dropdown p{
 	display: block;
 	padding: 0.5rem;
@@ -105,6 +105,9 @@
 .paddingBottomV2{padding-bottom: 2rem;}
 .marginCenter{margin:0 auto;}
 .marginAll1{margin: 1rem 1rem;}
+.margin-y1{margin: 1rem 0;}
+.margin-y2{margin: 2rem 0;}
+.margin-y3{margin: 3rem 0;}
 .textwhite{color: white;}
 .textNevin{;}
 .banner1{

@@ -13,9 +13,6 @@
 }
 
 /*--- story Style ---*/
-#story>:first-child
-
-#story>:first-child>div>ul>div>li{}
 #story li.dividingLine>p {
 	font-style: italic;
 	font-size: 1.25rem;
@@ -25,20 +22,19 @@
 #character>div>:first-child{background-color: }
 /*#character>div>div>:nth-child(2)>ul>li{text-align: center;margin:10px;}
 */
-#character>div>div>:nth-child(2)>ul>li {
-	line-height: 0rem;
+#character>div>div>div>ul>li {
+	line-height: 1rem;
 	padding:5px;
 }
-#character li.gridItem>div>:nth-child(1) {
+#character li.col3>div>:nth-child(1) {
 	font:italic bold 1.25rem DFKai-sb;
 }
-#character li.gridItem>div>:nth-child(2) {
+#character li.col3>div>:nth-child(2) {
 	font: italic 1rem DFKai-sb;
 }
-#character>div>div>:nth-child(2)>ul>li>div img {
-	width: 270px;
+div.dropdown-menu>p{
+	display: block;
 }
-
 /*--- Vedio Style ---*/
 #vedio {
 	background-color: #f3ffe6;
