@@ -58,17 +58,31 @@
 
 
 /*--- Dropdown Menu ---*/
-.dropdown-menu{padding: 1rem;}
-.dropdwon-menu-bottom{top: 100%;left:0;}
-.dropdwon-menu-top{bottom: 100%;left:0;}
-.dropdwon-menu-left{top:0;right: 100%;}
-.dropdwon-menu-right{top:0;left: 100%;}
-.dropdown{line-height: rem;}
-.dropdown>img,.dropdown p{display: block;padding: 0.5rem;transition:all 0.5s 0.2s;}
-.dropdown:hover>img,.dropdown-menu>li:hover p {color:#003399;font-size: 2rem;}
-.dropdown-menu{background-color: ;display:block;visibility:hidden;transition: all 0.5s 0.2s}
-.dropdown:hover img+.dropdown-menu,.dropdown-menu>li:hover a+.dropdown-menu
- {display: block;animation: dropdownMenuIn 2s 0.2s forwards;}
+.dropdown-menu{
+	padding: 1rem;}
+.dropdwon-menu-bottom{t
+	op: 100%;left:0;}
+.dropdwon-menu-top{
+	bottom: 100%;left:0;}
+.dropdwon-menu-left{
+	top:0;right: 100%;}
+.dropdwon-menu-right{
+	top:0;left: 100%;}
+.dropdown{
+	line-height: rem;}
+.dropdown>img,.dropdown p{
+	display: block;
+	padding: 0.5rem;
+	transition:all 0.5s 0.2s;}
+.dropdown:hover>img,.dropdown-menu>li:hover p {
+	color:#003399;
+	font-size: 2rem;}
+.dropdown-menu{display:block;
+	visibility:hidden;
+	transition: all 0.5s 0.2s}
+.dropdown:hover img+.dropdown-menu,.dropdown-menu>li:hover a+.dropdown-menu{
+	display: block;
+	animation: dropdownMenuIn 2s 0.2s forwards;}
  .dropdown-menu>{line-height: rem;}
 
 /*--- Common Style ---*/
@@ -93,32 +107,66 @@
 .marginAll1{margin: 1rem 1rem;}
 .textwhite{color: white;}
 .textNevin{;}
-.banner1{background-attachment: fixed;background-size:100% auto;background-repeat:no-repeat;
+.banner1{
+	background-attachment: fixed;
+	background-size:100% auto;
+	background-repeat:no-repeat;
 	background-image:linear-gradient(to bottom, rgb(255, 255, 255,0.7) 0%, 
 		rgb(255, 255, 255,0.7) 100%),url(../images/bg-2.jpg);color: #113213;}
-.banner2{background-attachment: fixed;background-size: 100% auto;background-repeat: no-repeat;
+.banner2{
+	background-attachment: fixed;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	background-image: url(../images/bg-3.4.jpg);}
-.banner3{background-attachment: fixed;background-size: 100% auto;background-repeat: no-repeat;
+.banner3{background-attachment: fixed;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	background-image:linear-gradient(to bottom, rgb(255, 255, 255,0.7)0%,rgb(255, 255, 255,0.5)100%),
 	url(../images/texture-1.jpg);}
 .lineHeight1{line-height: 2rem;}
 .lineHeight2{line-height: 3rem;}
-.dividingLine>h1{font-size: 1.5rem;position: relative;color:#996600;font-weight: bold;margin-bottom: 1rem;}
-.dividingLine>h2{font-size: 1.5rem;font-weight: bold;}
-.dividingLine>h1::before{content: " ";width:7rem;height:115%;top:0;left:calc((100% - 7rem) / 2);border-bottom:2px solid #996600;
-position: absolute;}
-.buttonRadius{border-radius: 1.5rem;}
-.productText{font: italic bold 1.5rem/1rem;color: white;}
-.showborder{border: 2px solid black;}
-.ifYouLikebutton{background-color:#62C757;border: none;color: white;padding: 0.75rem 1rem;
-	text-align: center;cursor: pointer;border-radius: 1rem;}
-.ifYouLikebutton:hover{background-color: #45ac39;}
-.ifYouLikeGrid{display: grid;grid-template-columns:auto auto auto;grid-gap:2rem 0.5rem;}
-.ifYouLikeGridItem1{grid-column-start: 1;grid-column-end: 4;}
+.dividingLine>h1{font-size: 1.5rem;
+	position: relative;
+	color:#996600;
+	font-weight: bold;
+	margin-bottom: 1rem;}
+.dividingLine>h2{font-size: 1.5rem;
+	font-weight: bold;}
+.dividingLine>h1::before{content: " ";
+	width:7rem;
+	height:115%;
+	top:0;
+	left:calc((100% - 7rem) / 2);
+	border-bottom:2px solid #996600;
+	position: absolute;}
+.buttonRadius{
+	border-radius: 1.5rem;}
+.productText{
+	font: italic bold 1.5rem/1rem;
+	color: white;}
+.showborder{
+	border: 2px solid black;}
+.ifYouLikebutton{background-color:#62C757;
+	border: none;
+	color: white;
+	padding: 0.75rem 1rem;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 1rem;}
+.ifYouLikebutton:hover{
+	background-color: #45ac39;}
+.ifYouLikeGrid{display: grid;
+	grid-template-columns:auto auto auto;
+	grid-gap:2rem 0.5rem;}
+.ifYouLikeGridItem1{grid-column-start: 1;
+	grid-column-end: 4;}
 
 /*--- adviceBar Style ---*/
 
-#ifYouLike>div>:nth-child(3)>:nth-child(2)>form>input[type*=text]{display:inline-block;width:85%;line-height:2rem;
+#ifYouLike>div>:nth-child(3)>:nth-child(2)>form>input[type*=text]{
+	display:inline-block;
+	width:85%;
+	line-height:2rem;
 	outline:none;}
 
 
