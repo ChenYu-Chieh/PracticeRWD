@@ -32,6 +32,10 @@
 #character li.col3>div>:nth-child(2) {
 	font: italic 1rem DFKai-sb;
 }
+div.dropdown-menu{
+	background-color: #e6e6e6;
+	border-radius: 10px 10px;
+}
 div.dropdown-menu>p{
 	display: block;
 }
@@ -65,7 +69,8 @@ div.dropdown-menu>p{
 	position:absolute;
 	opacity:0;
 	transition:all 1s 0.2s;
-	background-image:linear-gradient(to top, rgba(50,50,50,0.7) 20%, rgba(50,50,50,0.6) 30%,
+	background-image:linear-gradient(to top, rgba(50,50,50,0.7) 20%,
+	 rgba(50,50,50,0.6) 30%,
 		rgba(50,50,50,0) 100%);
 	border-radius: 1rem;}
 #productteam>section>:nth-child(2)>section>.col3:hover>:first-child::before{

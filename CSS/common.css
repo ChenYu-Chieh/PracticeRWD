@@ -50,7 +50,7 @@
 .justifyContentEnd{justify-content: flex-end;}
 .alignItemsStart{align-items:flex-start;}
 .alignItemsCenter{align-items: center;}
-
+.alignContentCenter{align-content:center;}
 /*--- Position ---*/
 .positionR,.dropdown{position:relative;}
 .positionA,.dropdown-menu{position: absolute;}
@@ -80,10 +80,11 @@
 .dropdown-menu{display:block;
 	visibility:hidden;
 	transition: all 0.5s 0.2s}
-.dropdown:hover img+.dropdown-menu,.dropdown-menu>li:hover a+.dropdown-menu{
+.dropdown:hover img+.dropdown-menu,
+.dropdown-menu>li:hover a+.dropdown-menu{
 	display: block;
 	animation: dropdownMenuIn 2s 0.2s forwards;}
- .dropdown-menu>{line-height: rem;}
+ .dropdown-menu>{line-height: 0.5rem;}
 
 /*--- Common Style ---*/
 [data-ui*=hidden]{display:none;}
@@ -103,13 +104,14 @@
 .paddingAll1{padding: 1rem 1rem;}
 .paddingAll2{padding: 2rem 2rem;}
 .paddingBottomV2{padding-bottom: 2rem;}
+.padding-b5{padding-bottom:5rem;}
 .marginCenter{margin:0 auto;}
 .marginAll1{margin: 1rem 1rem;}
 .margin-y1{margin: 1rem 0;}
 .margin-y2{margin: 2rem 0;}
 .margin-y3{margin: 3rem 0;}
+.margin-b5{margin-bottom:5rem;}
 .textwhite{color: white;}
-.textNevin{;}
 .banner1{
 	background-attachment: fixed;
 	background-size:100% auto;
@@ -176,7 +178,7 @@
 /*--- Animation ---*/
 @keyframes dropdownMenuIn{
 	from{visibility:hidden;opacity:0;}
-	to  {visibility:visible;opacity:1;}
+	to  {visibility:visible;opacity:0.8;}
 }
 
 
